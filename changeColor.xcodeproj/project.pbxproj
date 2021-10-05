@@ -13,6 +13,7 @@
 		F4D83312270B31F300435B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D83310270B31F300435B58 /* Main.storyboard */; };
 		F4D83314270B31F500435B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D83313270B31F500435B58 /* Assets.xcassets */; };
 		F4D83317270B31F500435B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D83315270B31F500435B58 /* LaunchScreen.storyboard */; };
+		F4D8331F270B3BB500435B58 /* LovelyMelody-EaPon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4D8331E270B3BB500435B58 /* LovelyMelody-EaPon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F4D83313270B31F500435B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D83316270B31F500435B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D83318270B31F500435B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D8331E270B3BB500435B58 /* LovelyMelody-EaPon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LovelyMelody-EaPon.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F4D83313270B31F500435B58 /* Assets.xcassets */,
 				F4D83315270B31F500435B58 /* LaunchScreen.storyboard */,
 				F4D83318270B31F500435B58 /* Info.plist */,
+				F4D8331E270B3BB500435B58 /* LovelyMelody-EaPon.ttf */,
 			);
 			path = changeColor;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				F4D83317270B31F500435B58 /* LaunchScreen.storyboard in Resources */,
 				F4D83314270B31F500435B58 /* Assets.xcassets in Resources */,
 				F4D83312270B31F300435B58 /* Main.storyboard in Resources */,
+				F4D8331F270B3BB500435B58 /* LovelyMelody-EaPon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
