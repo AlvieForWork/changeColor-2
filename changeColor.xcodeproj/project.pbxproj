@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40882A0270C84E60083BE55 /* CALayer+newButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F408829F270C84E60083BE55 /* CALayer+newButton.m */; };
+		F40882A2270C8A240083BE55 /* designableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40882A1270C8A240083BE55 /* designableSlider.swift */; };
 		F4D8330B270B31F300435B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8330A270B31F300435B58 /* AppDelegate.swift */; };
 		F4D8330D270B31F300435B58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8330C270B31F300435B58 /* SceneDelegate.swift */; };
 		F4D8330F270B31F300435B58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8330E270B31F300435B58 /* ViewController.swift */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F408829D270C84E50083BE55 /* changeColor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "changeColor-Bridging-Header.h"; sourceTree = "<group>"; };
+		F408829E270C84E60083BE55 /* CALayer+newButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+newButton.h"; sourceTree = "<group>"; };
+		F408829F270C84E60083BE55 /* CALayer+newButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+newButton.m"; sourceTree = "<group>"; };
+		F40882A1270C8A240083BE55 /* designableSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designableSlider.swift; sourceTree = "<group>"; };
 		F4D83307270B31F300435B58 /* changeColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changeColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D8330A270B31F300435B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D8330C270B31F300435B58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +48,11 @@
 		F4D832FE270B31F300435B58 = {
 			isa = PBXGroup;
 			children = (
+				F408829E270C84E60083BE55 /* CALayer+newButton.h */,
+				F408829F270C84E60083BE55 /* CALayer+newButton.m */,
 				F4D83309270B31F300435B58 /* changeColor */,
 				F4D83308270B31F300435B58 /* Products */,
+				F408829D270C84E50083BE55 /* changeColor-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +71,7 @@
 				F4D8330C270B31F300435B58 /* SceneDelegate.swift */,
 				F4D8330E270B31F300435B58 /* ViewController.swift */,
 				F4D83310270B31F300435B58 /* Main.storyboard */,
+				F40882A1270C8A240083BE55 /* designableSlider.swift */,
 				F4D83313270B31F500435B58 /* Assets.xcassets */,
 				F4D83315270B31F500435B58 /* LaunchScreen.storyboard */,
 				F4D83318270B31F500435B58 /* Info.plist */,
@@ -102,6 +112,7 @@
 				TargetAttributes = {
 					F4D83306270B31F300435B58 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -142,9 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40882A0270C84E60083BE55 /* CALayer+newButton.m in Sources */,
 				F4D8330F270B31F300435B58 /* ViewController.swift in Sources */,
 				F4D8330B270B31F300435B58 /* AppDelegate.swift in Sources */,
 				F4D8330D270B31F300435B58 /* SceneDelegate.swift in Sources */,
+				F40882A2270C8A240083BE55 /* designableSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,6 +322,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.song.changeColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "changeColor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,6 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.song.changeColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "changeColor-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
